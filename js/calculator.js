@@ -14,8 +14,6 @@ Calculator.prototype.calculate = function(num1, num2, operator){
     result = num1 / num2;
   }
   return result;
-  alert("result");
-  console.log(result);
 };
 
 exports.calculatorModule = Calculator;
