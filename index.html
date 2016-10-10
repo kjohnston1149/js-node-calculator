@@ -9,31 +9,33 @@
     <title>calculator</title>
   </head>
   <body>
-    <h1 class="jumbotron">A BASIC CALCULATOR!</h1>
-    <div class="form-group">
-      <form id="email">
-        <label for="address">Enter your email</label>
-        <input type="text" name="name" value="">
-        <button class="btn btn-primary" type="submit" name="button">Submit</button>
-      </form>
+    <div class="container">
+      <h1 class="jumbotron">A BASIC CALCULATOR!</h1>
+      <div class="form-group">
+        <form id="email">
+          <label for="address">Enter your email</label>
+          <input type="text" id="address">
+          <button class="btn btn-primary" type="submit" name="button">Submit</button>
+        </form>
+      </div>
+      <h3 id="email-display"></h3>
+      <div class="form-group">
+        <form id="calculator-form">
+          <label for="num1">Enter first number</label>
+          <input id="num1" type="number" name="name" value=""><br>
+          <label for="operatorSelector">Select an operator</label>
+          <select class="selectpicker" id="operatorSelector">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+          </select><br>
+          <label for="num2">Enter second number</label>
+          <input id="num2" type="number" name="name" value=""><br>
+          <button class="btn btn-success" type="submit" name="button">Submit</button>
+        </form>
+      </div>
+      <h1 id="solution"></h1>
     </div>
-    <h3 id="email-display">WHAAAAAAA</h3>
-    <div class="form-group">
-      <form id="calculator-form">
-        <label for="num1">Enter first number</label>
-        <input id="num1"type="number" name="name" value=""><br>
-        <label for="operatorSelector">Select an operator</label>
-        <select class="selectpicker" id="operatorSelector">
-          <option>+</option>
-          <option>-</option>
-          <option>*</option>
-          <option>/</option>
-        </select><br>
-        <label for="num2">Enter second number</label>
-        <input id="num2"type="number" name="name" value=""><br>
-        <button class="btn btn-success" type="submit" name="button">Submit</button>
-      </form>
-    </div>
-    <p id="solution"></p>
   </body>
 </html>
