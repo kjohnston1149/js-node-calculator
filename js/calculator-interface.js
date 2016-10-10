@@ -1,7 +1,6 @@
-
+var Calculator = require('./../js/calculator.js').calculatorModule;
 
 $(document).ready(function() {
-      // debugger;
   $('#calculator-form').submit(function(event) {
     event.preventDefault();
     var num1 = parseInt($('#num1').val());

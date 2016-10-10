@@ -18,4 +18,4 @@ Calculator.prototype.calculate = function(num1, num2, operator){
   console.log(result);
 };
 
-// exports.calculatorModule = Calculator;
+exports.calculatorModule = Calculator;
